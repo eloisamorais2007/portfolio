@@ -24,10 +24,12 @@
     --cor-linck: #0b0b0b;
     --cor-hover: #;
 
-    --cor-borda: ;
+    --cor-borda: #9a9a9c;
 
-    
+}
 
+html[data-theme="light"] .logo  {
+    filter: invert(1);
 }
 
 
@@ -88,6 +90,11 @@ ul {
 .menu-texto {
     color: #56575a;
     text-transform: uppercase;
+}
+
+.logo{
+    width: 3.25rem; /* 52px */
+    height: 1.89rem;
 }
 
 #toggleTheme {
