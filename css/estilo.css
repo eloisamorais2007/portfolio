@@ -97,8 +97,32 @@ ul {
     height: 1.89rem;
 }
 
+.header-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 #toggleTheme {
     cursor: pointer;
     color: var(--cor-icone);
     font-size: 1rem;  /* tamanho fonte */
+}
+
+/* Medidas responsivas */
+
+@media (min-width: 768px) {  /* A partir de 768px ate o infinito */
+
+    .menu-desktop{
+        display: flex;
+        min-width: 30%;
+    }
+
+    .menu-desktop,
+    .header-toggle {
+        min-width: 30%;
+    }
+
+
+
 }
