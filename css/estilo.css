@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-color: #111217 ;   /* Cor Fundo */
+    color: #f0f0f0; /* cor de texto */
+    font-family: ;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+#heder {
+    display: flex;
+    flex-wrap: row rap; /*Permite quebra de Linha*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
