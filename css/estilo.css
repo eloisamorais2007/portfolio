@@ -80,9 +80,18 @@ ul {
   font-weight: 600; /*Axpessura da fonte */
 }
 
-.menu-link.active .menu-texto,
 .menu-link:hover .menu-texto {
   color: var(--cor-hover);
+}
+
+.social-icon {
+  color: var(--cor-texto);
+  font-size: 1.5rem;
+}
+
+.menu-link:hover .social-icon {
+  color: var(--cor-hover);
+  transition: all 0.3s ease-in-out;
 }
 
 .logo {
@@ -122,7 +131,8 @@ ul {
 
 /* Menu Mobile (estilo e animação) */
 
-.menu-mobile {  /* nav */
+.menu-mobile {
+  /* nav */
   position: fixed;
   top: 0;
   right: 0;
@@ -130,30 +140,27 @@ ul {
   z-index: 100;
   transform: translateX(100%);
   display: flex;
-  flex-direction: column;  /* voltar */
+  flex-direction: column; /* voltar */
   padding-top: 4rem;
   border-left: 1px solid var(--cor-borda);
-  height: 100vh; /* VH = Viewpot heing */  /* VW = viewpot widht */
+  height: 100vh; /* VH = Viewpot heing */ /* VW = viewpot widht */
   width: 35%;
   transition: transform 0.3s ease-in-out;
 }
- 
 
 .menu-mobile.active {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 .menu-mobile .menu-lista {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .menu-mobile .menu-link {
-    font-size: 1rem;
-    padding: 5rem 0;
+  font-size: 1rem;
+  padding: 5rem 0;
 }
-
-
 
 /* Medidas responsivas */
 
@@ -175,8 +182,6 @@ ul {
   }
 
   #home {
-    padding-top: 6rem     ;
+    padding-top: 6rem;
   }
-
 }
-
