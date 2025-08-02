@@ -137,6 +137,7 @@ ul {
   width: 35%;
   transition: transform 0.3s ease-in-out;
 }
+ 
 
 .menu-mobile.active {
     transform: translateX(0%);
@@ -151,7 +152,6 @@ ul {
     font-size: 1rem;
     padding: 5rem 0;
 }
-
 
 
 
@@ -173,4 +173,10 @@ ul {
   .btn-menu-mobile {
     display: none;
   }
+
+  #home {
+    padding-top: 6rem     ;
+  }
+
 }
+
