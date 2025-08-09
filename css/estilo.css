@@ -1,3 +1,22 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+
+:root {
+  --font-corpo: "inter"
+  --cor-icone;
+
+}
+
+
+
 /* Definir cores tema dark */
 
 :root,
@@ -50,6 +69,11 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
 #header {
   /*  ID = # */
   display: flex;
@@ -78,6 +102,8 @@ ul {
   text-transform: uppercase; /* alterar o formato do texto */
   font-size: 0.75rem;
   font-weight: 600; /*Axpessura da fonte */
+  font-family: "inter";
+  text-rendering: optimizeLegibility;
 }
 
 .menu-link:hover .menu-texto {
@@ -161,6 +187,31 @@ ul {
   font-size: 1rem;
   padding: 5rem 0;
 }
+
+#home {
+  display: flex;
+  flex-direction: colum;
+  gap: 2rem;
+}
+
+.main-contet {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video iframe{
+width: 100%;
+aspect-ratio: 16/9
+width/100%;
+}
+
 
 /* Medidas responsivas */
 
