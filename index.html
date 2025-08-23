@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/estilo.css" />
   </head>
 
-  <body>
+  <>
     <header id="header">
       <!-- Menu Desktop -->
       <nav class="menu-desktop">
@@ -164,20 +164,19 @@
 
         <!--Fim do menu social-->
 
-        <a href="#projetos">
+        <a href="https://www.youtube.com/" target="_blank">
           <button class="btn btn-primario">
             <span>Ver Projetos</span>
-            <i class="bi bi-arrow-down-right"> </i>
+            <i class="bi bi-arrow-down-right"></i>
           </button>
         </a>
       </div>
-
-      <!-- Fim menu social -->
+      <!-- Fim main-content -->
 
       <div class="video">
         <iframe
-          src="https://www.youtube.com/embed/bCFTv8a59PE"
-          title="Curso de HTML e CSS - Estrutura básica do HTML - Aula 1"
+          src="https://www.youtube.com/embed/8DJPGKYEtz8"
+          title="COD Warzone - Deitando na C4"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
@@ -191,12 +190,217 @@
     </section>
 
     <!-- Projetos -->
-     <section id="Projetos" class="projetos">
+    <section id="projetos" class="projetos">
+      <!-- <h2 class="titulo-proj">Projetos</h2> -->
       <h2>Projetos</h2>
-     </section>
 
-    <footer></footer>
+      <!-- Estrutura para os Projetos -->
+      <div class="projeto-container">
+        <!-- Projeto / Card 1 -->
+        <article class="projeto-card">
+          <img src="img/projetos/games-store.jpg" alt="" class="card-cover" />
 
-    <script src="js/script.js"></script>
-  </body>
+          <div class="card-body">
+            <h3 class="card-title">Games Store</h3>
+            <p class="card-description">Loja online de jogos.</p>
+
+            <ul class="card-lista">
+              <li class="card-item">
+                <i class="bi bi-playstation"></i>
+                Jogos PS5
+              </li>
+
+              <li class="card-item">
+                <i class="bi bi-nintendo-switch"></i>
+                Jogos Nintendo
+              </li>
+
+              <li class="card-item">
+                <i class="bi bi-steam"></i>
+                Jogos PC
+              </li>
+            </ul>
+
+            <div class="card-button">
+              <button class="btn btn-primario">
+                <a
+                  href="https://store.steampowered.com/?l=portuguese"
+                  target="_blank"
+                >
+                  <span> Prévia </span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <!-- Fim Card Body -->
+        </article>
+
+        <!-- Projeto / Card 2 -->
+            <article class="projeto-card card-reverse">
+                <img src="img/projetos/josisbox.jpg" alt="" class="card-cover">
+
+                <div class="card-body">
+
+                    <h3 class="card-title"> Josis's Box </h3>
+                    <p class="card-description"> Livraria Online. </p>
+
+                    <ul class="card-lista">
+
+                        <li class="card-item">
+                            <i class="bi bi-playstation"></i>
+                            Jogos PS5
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-nintendo-switch"></i>
+                            Jogos Nintendo
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-steam"></i>
+                            Jogos PC
+                        </li>
+                    </ul>
+
+                    <div class="card-button">
+                        <button class="btn btn-primario">
+                            <a href="https://store.steampowered.com/?l=portuguese" target="_blank">
+
+                                <span> Prévia </span>
+                                <i class="bi bi-arrow-up-right"></i>
+
+                            </a>
+                        </button>
+
+                    </div>
+
+                </div> <!-- Fim Card Body -->
+
+            </article>
+
+            <!-- Projeto / Card 3 -->
+            <article class="projeto-card">
+                <img src="img/projetos/portfolio.PNG" alt="" class="card-cover">
+
+                <div class="card-body">
+
+                    <h3 class="card-title"> Portfolio Pessoal </h3>
+                    <p class="card-description"> A história por trás do meu Portfolio. </p>
+
+                    <ul class="card-lista">
+
+                        <li class="card-item">
+                            <i class="bi bi-playstation"></i>
+                            Estrutura do Layout
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-nintendo-switch"></i>
+                            Web Responsive
+                        </li>
+
+                        <li class="card-item">
+                            <i class="bi bi-steam"></i>
+                            Tema Light and Dark
+                        </li>
+                    </ul>
+
+                    <div class="card-button">
+                        <button class="btn btn-primario">
+                            <a href="https://store.steampowered.com/?l=portuguese" target="_blank">
+
+                                <span> Prévia </span>
+                                <i class="bi bi-arrow-up-right"></i>
+
+                            </a>
+                        </button>
+
+                    </div>
+
+                </div> <!-- Fim Card Body -->
+
+            </article>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre">
+
+        <!-- Conteudo 1 -->
+        <div class="sobre-content1">
+            <img src="img/avatar.jpg" alt="" class="sobre-logo">
+
+            <div class="sobre-description">
+                <h2> sobre mim </h2>
+
+                <p>
+                    Eloísa Morais. Entusiasta por tecnologia, Games e PC, meu primeiro "Hello World" foi na pré-adolescência quanto tive contato com HTML em Tabelas e aqueles websites esquisitos feitos em Flash 😅. Atualmente curso especialização em IA e Machine Learning e atuo como instrutor no Senai SP.
+                </p>
+
+                <div class="sobre-icones"> <!-- Skills -->
+                    <i class="bi bi-translate"></i>
+                    <span> Ingles: Intermediário </span>
+                </div>
+
+                <div class="description-button">
+                    <a href="#" target="_blank">
+
+                        <button class="btn btn-primario">
+                            <span> Conecte-se Comigo </span>
+                            <i class="bi bi-arrow-up-right"> </i>
+                        </button>
+
+                    </a>
+                </div>
+
+            </div> <!-- Fim Descricao -->
+
+        </div><!-- Fim Conteudo 1 -->
+
+        <!-- Conteudo 2 -->
+        <div class="sobre-content2">
+
+            <!-- Coluna 1 -->
+            <div class="col1">
+
+                <div class="row1">
+                    <h3>Formação</h3>
+
+                </div> <!-- Fim Row 1 -->
+
+                <div class="row2">
+                    <h3>Experiências</h3>
+
+                </div> <!-- Fim Row 2 -->
+
+            </div> <!-- Fim Coluna 1 -->
+
+            <div class="col2">
+                <h3>Cursos</h3>
+
+            </div>
+            <!-- Coluna 2 -->
+
+        </div><!-- Fim Conteudo 2 -->
+
+
+
+
+    </section>
+
+
+
+    <footer>
+
+    </footer>
+
+    <script src="js/script.js"> </script>
+
+</body>
+
 </html>
