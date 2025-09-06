@@ -111,4 +111,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+//Comentrio em linha//
+
+btnTopo.style.display = "none";
+        }
+    };
+
+    btnTopo.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+
 });
